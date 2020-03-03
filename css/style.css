@@ -9,12 +9,10 @@ body {
 section {
   margin: 100px 0px 50px 0px;
   text-align: center; }
-  section .container {
-    margin-bottom: 100px; }
   section .colum_left {
-    margin-top: 80px !important; }
+    margin-top: 100px !important; }
   section img {
-    width: 95%;
+    width: 97%;
     transition: all .8s ease-in-out; }
   section img:hover {
     transform: scale(1.05); }
