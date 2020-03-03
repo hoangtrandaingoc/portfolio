@@ -7,7 +7,8 @@ body {
   font-family: "Roboto", sans-serif; }
 
 section {
-  margin: 100px 0px 50px 0px; }
+  margin: 100px 0px 50px 0px;
+  text-align: center; }
   section .container {
     margin-bottom: 100px; }
   section .colum_left {
