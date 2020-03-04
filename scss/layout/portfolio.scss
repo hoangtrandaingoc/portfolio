@@ -1,12 +1,12 @@
 body{
-    font-family: $font_body;
+    font-family: $font_main;
 }
 
 section{
     margin: 100px 0px 50px 0px;
     text-align: center;
     .colum_left{
-        margin-top: 100px !important;
+        margin-top: 100px;
     }
     img{
         width: 97%;
@@ -20,3 +20,12 @@ section{
     }
 }
 
+
+@media only screen and (max-width: 768px) { 
+    section{
+        margin: 50px 0px 25px 0px;
+    }
+    .colum_left{
+        margin-top: 0px !important;
+    }
+ }
