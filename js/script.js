@@ -16,5 +16,3 @@ icon2.onclick = function(){
 }
 
 
-//aos animation
-AOS.init();
