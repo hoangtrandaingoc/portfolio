@@ -8,9 +8,11 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- link font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Montserrat|Questrial&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -25,8 +27,8 @@
                   data-toggle="collapse"
                   data-target="#navbar7"
                 >
-                  <span id="icon1"><i class="fa fa-bars" style="font-size:36px"></i></span>
-                  <span id="icon2"><i class="fa fa-close" style="font-size:36px"></i></span>
+                  <span id="icon1"><i class="fa fa-bars" style="font-size:28px; color: black;"></i></span>
+                  <span id="icon2"><i class="fa fa-close" style="font-size:28px; color: black;"></i></span>
 
                 </button>
                 <div class="navbar-collapse collapse" id="navbar7">
@@ -35,7 +37,7 @@
                       <a href="./index.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a href="#project" class="nav-link">Projects</a>
+                      <a href="#project" class="nav-link">Portfolio</a>
                     </li>
                     <li>
                         <a href="" class="nav-link">Contact</a>
@@ -49,8 +51,18 @@
 
     <header>
         <div class="container">
-            <h1>We're a creative studio designing <br> solutions for companies with meaningful missions.</h1>
-            <h4>Our projects</h4> 
+            <h1>I'M WAYNE</h1>
+            
+            <!-- typedjs -->
+            <div class="typedjs">
+            <div id="typed-strings">
+                <p>Welcome to my page</p>
+            </div>
+            <span id="typed"></span>
+             </div>
+            <h4>Portfolio</h4> 
+            <p>My everyday work is presented here,<br>
+                for more check out my portfolio on behance.</p>
             <lottie-player
                 src="https://assets5.lottiefiles.com/datafiles/OC18fEVbaPiNYu3/data.json"  background="transparent"  speed="1"  style="width: 100px; height: 100px;"  loop  autoplay >
             </lottie-player>
@@ -60,12 +72,12 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up">
                     <img class="img-fluid" src="./img/branding.png" alt="">
                     <figcaption></figcaption>
                     <h3>Project1</h3>
                 </div>
-                <div class="col-md-6 colum_left">
+                <div class="col-md-6 colum_left" data-aos="fade-up">
                     <img class="img-fluid" src="./img/copywriting.png" alt="">
                     <figcaption></figcaption>
                     <h3>Project2</h3>
@@ -75,12 +87,12 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up">
                     <img class="img-fluid" src="./img/design.png" alt="">
                     <figcaption></figcaption>
                     <h3>Project3</h3>
                 </div>
-                <div class="col-md-6 colum_left">
+                <div class="col-md-6 colum_left" data-aos="fade-up">
                     <img class="img-fluid" src="./img/marketing.png" alt="">
                     <figcaption></figcaption>
                     <h3>Project4</h3>
@@ -95,11 +107,19 @@
     <!-- script lottie animation -->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
+    <!-- typedjs -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+    <!-- aos animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
     <script src="./js/script.js"></script>
+    <script src="./js/typed.js"></script>
+    <script src="./js/aos.js"></script>
 </body>
 </html>

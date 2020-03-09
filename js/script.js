@@ -14,3 +14,7 @@ icon2.onclick = function(){
     icon1.classList.remove('hidden_icon1');
 
 }
+
+
+//aos animation
+AOS.init();

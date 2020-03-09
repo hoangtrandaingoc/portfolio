@@ -32,21 +32,33 @@ section {
     padding: 30px 0px; }
 
 @media only screen and (max-width: 768px) {
-  section {
-    margin: 50px 0px 25px 0px; }
   .colum_left {
     margin-top: 0px !important; } }
 
 header h1 {
-  padding: 200px 0px 100px 0px;
-  text-align: center; }
+  margin: 100px 0px 20px 0px;
+  text-align: center;
+  font-size: 125px;
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  color: #222;
+  text-transform: uppercase; }
+
+.typedjs {
+  text-align: center;
+  margin-bottom: 100px;
+  color: #333;
+  font-family: "Questrial", sans-serif;
+  font-size: 25px; }
 
 header h4 {
-  padding-bottom: 30px; }
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #242321; }
 
-@media only screen and (max-width: 768px) {
-  header h1 {
-    padding: 150px 0px 50px 0px; } }
+header p {
+  font-family: "Questrial", sans-serif;
+  color: #333; }
 
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
